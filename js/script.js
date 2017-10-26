@@ -8,7 +8,7 @@ var points = 0;
 //UI
 $(document).ready(function() {
   $("#questions").submit(function(e) {
-    event.preventDefault();
+    e.preventDefault();
     var situation1 = $("#situation1").val();
     var situation2 = $("#situation2").val();
 
