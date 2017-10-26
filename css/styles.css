@@ -1,3 +1,11 @@
 #bellatrix, #neville, #draco, #mcgonagall {
   display: none;
 }
+
+.jumbotron {
+  text-align: center;
+  background: linear-gradient(to right, #ee0979, #ff6a00, #ffffff);
+}
+.well {
+  background: linear-gradient(to right, #ffffff, #ff6a00, #ee0979);
+}

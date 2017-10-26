@@ -38,13 +38,25 @@ $(document).ready(function() {
       alert("Thanks Lil B")
     }
 
-    if (points  < 3) {
+    if (points  < 3 && points >1) {
+      $("#bellatrix").hide();
+      $("#mcgonagall").hide();
+      $("#neville").hide();
       $("#draco").show();
     } else if (points > 4 && points < 101) {
+      $("#bellatrix").hide();
+      $("#mcgonagall").hide();
+      $("#draco").hide();
       $("#neville").show();
     } else if (points > 101 && points <250) {
+      $("#draco").hide();
+      $("#mcgonagall").hide();
+      $("#neville").hide();
       $("#bellatrix").show();
     } else if (points >599) {
+      $("#bellatrix").hide();
+      $("#draco").hide();
+      $("#neville").hide();
       $("#mcgonagall").show();
     }
 
