@@ -4,7 +4,6 @@ var points = 0;
 
 
 
-
 //UI
 $(document).ready(function() {
   $("#questions").submit(function(e) {
@@ -21,9 +20,8 @@ $(document).ready(function() {
     } else if (situation1 === "4") {
       points += 500
     } else if (situation1 === "0") {
-      alert("Hey, you didn't select anything. Try again!")
-      confirm("do you get it?")
-      alert("Good, now try again.")
+      alert("Hey, you didn't select anything...Try again!")
+      confirm("Did you do it?")
     }
 
     if (situation2 === "1") {
@@ -39,25 +37,25 @@ $(document).ready(function() {
     }
 
     if (points  < 3 && points >1) {
-      $("#bellatrix").hide();
-      $("#mcgonagall").hide();
-      $("#neville").hide();
-      $("#draco").show();
+      $("#niall").show();
+      $("#harry").hide();
+      $("#zayn").hide();
+      $("#liam").hide();
     } else if (points > 4 && points < 101) {
-      $("#bellatrix").hide();
-      $("#mcgonagall").hide();
-      $("#draco").hide();
-      $("#neville").show();
+      $("#liam").show();
+      $("#harry").hide();
+      $("#zayn").hide();
+      $("#niall").hide();
     } else if (points > 101 && points <250) {
-      $("#draco").hide();
-      $("#mcgonagall").hide();
-      $("#neville").hide();
-      $("#bellatrix").show();
+      $("#harry").show();
+      $("#zayn").hide();
+      $("#niall").hide();
+      $("#liam").hide();
     } else if (points >599) {
-      $("#bellatrix").hide();
-      $("#draco").hide();
-      $("#neville").hide();
-      $("#mcgonagall").show();
+      $("#zayn").show();
+      $("#harry").hide();
+      $("#liam").hide();
+      $("#niall").hide();
     }
 
 

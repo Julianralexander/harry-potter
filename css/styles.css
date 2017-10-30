@@ -1,11 +1,15 @@
-#bellatrix, #neville, #draco, #mcgonagall {
+#niall, #zayn, #harry, #liam {
   display: none;
+  float: right;
 }
 
 .jumbotron {
   text-align: center;
-  background: linear-gradient(to right, #ee0979, #ff6a00, #ffffff);
+  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
 }
 .well {
-  background: linear-gradient(to right, #ffffff, #ff6a00, #ee0979);
+ background: #c779d0;
+ padding: 25px;
+ margin: 25px;
+}
 }
